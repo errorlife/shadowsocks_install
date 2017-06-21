@@ -187,10 +187,10 @@ pre_install(){
 # Download files
 download_files(){
     # Download libsodium file
-    if ! wget --no-check-certificate -O libsodium-1.0.12.tar.gz https://download.libsodium.org/libsodium/releases/libsodium-1.0.12.tar.gz; then
-        echo "Failed to download libsodium-1.0.12.tar.gz!"
-        exit 1
-    fi
+    #if ! wget --no-check-certificate -O libsodium-1.0.12.tar.gz https://download.libsodium.org/libsodium/releases/libsodium-1.0.12.tar.gz; then
+    #    echo "Failed to download libsodium-1.0.12.tar.gz!"
+    #    exit 1
+    #fi
     # Download Shadowsocks file
     if ! wget --no-check-certificate -O shadowsocks-master.zip https://github.com/shadowsocks/shadowsocks/archive/master.zip; then
         echo "Failed to download shadowsocks python file!"
