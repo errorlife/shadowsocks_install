@@ -5,6 +5,12 @@ shadowsocks.sh
 ===============
 - Description: Auto Install Shadowsocks(Python) Server for CentOS/Debian/Ubuntu
 - Intro: https://teddysun.com/342.html
+- Order: 
+```
+wget --no-check-certificate https://raw.githubusercontent.com/errorlife/shadowsocks_install/master/shadowsocks.sh
+chmod +x shadowsocks.sh
+./shadowsocks.sh 2>&1 | tee shadowsocks.log
+```
 
 shadowsocks-libev.sh
 ===============
